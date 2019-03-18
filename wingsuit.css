@@ -1,0 +1,82 @@
+body {
+	/*background-color : #9f6;*/
+	background-color : #af7;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 2em;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 3em;
+}
+
+p {
+	text-indent: 0;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 3em;
+}
+
+div.logoTitle {
+	text-align: center;
+	width: 100%;
+}
+
+div.logoTitle img {
+	max-width: 75%;
+	max-height: 300px;
+}
+
+div.where {
+	text-align: center;
+	width: 100%;
+}
+
+div.where img {
+	max-width: 75%;
+	max-height: 200px;
+}
+
+div.fullwidth {
+	width: 100%;
+}
+
+
+
+.half {
+	height : 50px;
+}
+
+.quarter {
+	height : 30px;
+}
+
+a.discrete {
+	color : #7040f0;
+}
+
+
+
+div.csstab48_table {
+	width: auto;
+}
+
+div.csstab48_cell {
+	padding: 1em;
+}
+
+
+@media only screen
+and (min-width:48em) {
+
+div.csstab48_cell {
+	padding: 2em;
+}
+
+}
+

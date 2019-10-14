@@ -1,6 +1,8 @@
 body {
 	/*background-color : #9f6;*/
 	background-color : #af7;
+
+	scroll-behavior: smooth;
 }
 
 h3 {

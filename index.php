@@ -137,19 +137,47 @@ $body .= "<h3>$subtitle</h3>\n";
 	$body .= "<p>Nous sommes &eacute;galement &agrave; disposition pour toute question ou information.</p>\n";
 	$body .= "</div>\n";
 //
-	$body .= "<h4>Plus d'infos</h4>\n";
+	// Infos
+	$body .= "<h4>Plus d'informations</h4>\n";
 	$body .= "<div><ul style=\"margin: 0;\">\n";
 	$body .= "<li><a href=\"#ergotherapie\">$ergotherapieTitle</a>\n";
 	$body .= "<li><a href=\"#infos\">$infosTitle</a>\n";
 	$body .= "</ul></div>\n";
+	//
+		// Links
+		$body .= "<h5>Liens int&eacute;ressants (externes)</h5>\n";
+		//$body .= "<li><a target=\"_blank\" href=\"https://www.ergotherapie.ch/download.php?id=619\">Indications pour de l’ergoth&eacute;rapie en p&eacute;diatrie</a></li>\n";
 
-		// Downloads
-		$body .= "<h5>Documents utiles (liens externes)</h5>\n";
-		$body .= "<div><ul style=\"margin: 0;\">\n";
-		$body .= "<li><a target=\"_blank\" href=\"https://www.ergotherapie.ch/download.php?id=712\">Ordonnance pour l’ergoth&eacute;rapie</a></li>\n";
-		$body .= "<li><a target=\"_blank\" href=\"https://www.ergotherapie.ch/download.php?id=618\">Fiche signal&eacute;tique F-82</a></li>\n";
-		$body .= "<li><a target=\"_blank\" href=\"https://www.ergotherapie.ch/download.php?id=619\">Indications pour de l’ergoth&eacute;rapie en p&eacute;diatrie</a></li>\n";
-		$body .= "</ul></div>\n";
+			// Documents utiles
+			$body .= "<h6>Documents utiles</h6>\n";
+			$body .= "<div><ul style=\"margin: 0;\">\n";
+			$body .= "<li><a target=\"_blank\" href=\"https://www.ergotherapie.ch/download.php?id=712\">Ordonnance pour l’ergoth&eacute;rapie</a></li>\n";
+			$body .= "<li><a target=\"_blank\" href=\"https://www.ergotherapie.ch/download.php?id=618\">Formulaire F-82</a></li>\n";
+
+			$body .= "<li>Demande de prise en charge de l’ergoth&eacute;rapie ou d’un financement de moyen auxiliaire par l'AI:\n";
+			$body .= "<a traget=\"_blank\" href=\"https://www.aifr.ch/fr/prestations/particuliers#mesures-medicales\">Fribourg</a>\n";
+			$body .= "ou\n";
+			$body .= "<a target=\"_blank\" href=\"https://www.ahv-iv.ch/fr/M%C3%A9mentos-Formulaires/Formulaires/Formulaires-%C3%A9lectroniques/AI-Demandes/001003-Demande-pour-mineurs-Mesures-m%C3%A9dicales-mesures-dordre-professionnel-et-moyens-auxiliaires\">Vaud</a>\n";
+			$body .= "</li>\n";
+
+			$body .= "</ul></div>\n";
+		//
+			// Associations de parents
+			$body .= "<h6>Assiciations de parents</h6>\n";
+			$body .= "<div><ul style=\"margin: 0;\">\n";
+			$body .= "<li><a target=\"_blank\" href=\"https://www.autisme.ch/\">Autisme</a></li>\n";
+			$body .= "<li>Dyspraxie: <a target=\"_blank\" href=\"http://dyspraquoi.ch/\">dyspraquoi</a></li>\n";
+			$body .= "<li>Trouble de l'attention: <a target=\"_blank\" href=\"https://www.aspedah.ch/\">ASPEDAH</a></li>\n";
+			$body .= "</ul></div>\n";
+		//
+			// Sites
+			$body .= "<h6>Sites int&eacute;ressants</h6>\n";
+			$body .= "<div><ul style=\"margin: 0;\">\n";
+			$body .= "<li><a target=\"_blank\" href=\"https://www.cartablefantastique.fr/\">Cartable fantastique: ressources pour faciliter la scolarit&eacute; des enfants en difficult&eacute;s</a></li>\n";
+			$body .= "<li><a target=\"_blank\" href=\"https://www.aidodys.com/\">Aidodys: pour adapter les documents afin de faciliter la lecture</a></li>\n";
+			$body .= "<li><a target=\"_blank\" href=\"https://intics.ch/fr/\">Intics</a></li>\n";
+			$body .= "</ul></div>\n";
+
 //
 	// Ergotherapie c'est quoi
 	$body .= "<h2 id=\"ergotherapie\">$ergotherapieTitle</h2>\n";

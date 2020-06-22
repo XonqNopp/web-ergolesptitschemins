@@ -105,14 +105,14 @@ $body .= "<h3>$subtitle</h3>\n";
 	$body .= "<div class=\"csstab48_cell\">\n";
 	//$body .= "<div><img src=\"pictures/portrait_al.png\" alt=\"portrait $AL\" title=\"$AL\" /></div>\n";
 	$body .= "<div>$AL</div>\n";
-	$body .= "<div><a href=\"mailto:$mailAL\">$mailAL</a></div>\n";
+	$body .= "<div>$mailAL</div>\n";
 	$body .= "<div><a href=\"tel:+41775264489\">+41&nbsp;77&nbsp;526&nbsp;44&nbsp;89</a></div>\n";
 	$body .= "</div>\n";  // csstab48_cell
 
 	$body .= "<div class=\"csstab48_cell\">\n";
 	//$body .= "<div><img src=\"pictures/portrait_brigitte.png\" alt=\"portrait $brigitte\" title=\"$brigitte\" /></div>\n";
 	$body .= "<div>$brigitte</div>\n";
-	$body .= "<div><a href=\"mailto:$mailBrigitte\">$mailBrigitte</a></div>\n";
+	$body .= "<div>$mailBrigitte</div>\n";
 	$body .= "<div><a href=\"tel:+41796247159\">+41&nbsp;79&nbsp;624&nbsp;71&nbsp;59</a></div>\n";
 	$body .= "</div>\n";  // csstab48_cell
 
